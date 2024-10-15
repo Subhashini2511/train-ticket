@@ -1,0 +1,63 @@
+.container{
+    width: 60%;
+    padding-left: 70px;
+    margin: auto;
+    padding: 20px;
+    margin-right: -10px;
+    margin-top: 20px;
+    h1{
+        margin-top: 10px;
+        text-align: center;
+        color:black ;
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+}
+body{
+    background-image: url(./train-with-train-.avif);
+    background-size: cover;
+    background-color: darkcyan;
+    font-family:Arial, Helvetica, sans-serif ;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter:blur(4px) ;
+    background-color: transparent;
+}
+.details{
+    display: inline-block;
+    width:45% ;
+    padding: 10px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.details:first-child{
+    float: left;
+}
+.details:last-child{
+    float: right;
+
+    
+    
+}
+label{
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input,select{
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.submit-btn{
+    display: block;
+    width: 30%;
+    padding: 10px;
+    margin: auto;
+    background-color: crimson;
+    color: wheat;
+    border-radius: 5px;
+}
